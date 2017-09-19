@@ -5,9 +5,10 @@ using namespace std;
 
 class Solution {
 public:
-	string longestPalindrome(string s) {
+	int longestPalindrome(string s) {
 		const int len = s.size();
-		if (len <= 1)return s;
+		if (len <= 1)
+			return 1;
 		//Manncher算法 ，o（n）
 		string str = preProcess(s);
 		int n = str.size(), id = 0, mx = 0;
@@ -24,7 +25,6 @@ public:
 				id = i;
 			}
 		}
-
 		//遍历p，寻找最大回文长度
 		int maxLen = 0, index = 0;
 		for (int i = 1; i < n - 1; i++)
@@ -33,7 +33,8 @@ public:
 				maxLen = p[i];
 				index = i;
 			}
-		return s.substr((index - maxLen) / 2, maxLen - 1);
+		/*return s.substr((index - maxLen) / 2, maxLen - 1);*/
+		return  maxLen-1;
 	}
 	//预处理字符串，abc预处理后变成$#a#b#c#^
 	string preProcess(const string &s)
