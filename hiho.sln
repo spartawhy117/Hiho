@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001最长回文子串", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002字典树", "字典树\字典树.vcxproj", "{85D0149E-C193-448F-B259-614A307E96FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003KMP", "003KMP\003KMP.vcxproj", "{B465E8C3-C3E7-47B5-81D1-612258311381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{85D0149E-C193-448F-B259-614A307E96FB}.Release|x64.Build.0 = Release|x64
 		{85D0149E-C193-448F-B259-614A307E96FB}.Release|x86.ActiveCfg = Release|Win32
 		{85D0149E-C193-448F-B259-614A307E96FB}.Release|x86.Build.0 = Release|Win32
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Debug|x64.ActiveCfg = Debug|x64
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Debug|x64.Build.0 = Debug|x64
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Debug|x86.ActiveCfg = Debug|Win32
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Debug|x86.Build.0 = Debug|Win32
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Release|x64.ActiveCfg = Release|x64
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Release|x64.Build.0 = Release|x64
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Release|x86.ActiveCfg = Release|Win32
+		{B465E8C3-C3E7-47B5-81D1-612258311381}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
